@@ -141,7 +141,7 @@ Initializes environment, agent, and tracker CSV.
 
 Loads previous weights and epsilon from files if they exist.
 
-For each episode:
+#### For each episode:
 
 Runs until done or exceeding MAX_ITERATIONS.
 
@@ -151,7 +151,7 @@ Experiences stored and training step performed.
 
 On save episodes, writes weights and logs metrics to tracker.csv.
 
-Hyperparameters and Configuration
+### Hyperparameters and Configuration
 
 All key parameters are defined in config.py. You can easily adjust:
 
@@ -165,7 +165,7 @@ Training episodes and frequency (EPISODES, SAVE_FREQUENCY).
 
 Game dimensions and speed (WIDTH, HEIGHT, GAME_SPEED).
 
-Saving and Loading Models
+#### Saving and Loading Models
 
 Weights file: model.weights.h5 stores neural network weights.
 
